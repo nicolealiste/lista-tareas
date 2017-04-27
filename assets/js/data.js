@@ -1205,6 +1205,11 @@ newArr=[];
 for (var x=0; x<10; x++){
 // los agrega en un arreglo nuevo	
 newArr[x]=tareas[x].title;
+tareas.push({
+        'userId': 10,
+        'title': ingresa_tarea,
+        'completed': false
+    });
 //pasan a ser elementos de una lista
 document.write("<li>"+newArr[x]+"</li><br>");
 };
